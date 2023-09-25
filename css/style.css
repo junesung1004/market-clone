@@ -22,12 +22,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 1;
   background-color: salmon;
 }
 
 @media screen and (max-width:550px) {
   .media-info-msg {
-    opacity: 0;
+    display: none;
   }
 }
