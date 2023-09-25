@@ -8,14 +8,34 @@ footer {
   background-color: white;
 }
 
+:root
+
 .footer-block {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
+
+
 .footer-icons__img {
   width: 40px;
+}
+
+@keyframes icons-moving {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.footer-icons__img:hover {
+  animation: icons-moving 1s ease-in-out infinite;
 }
 
 .footer-icons {
