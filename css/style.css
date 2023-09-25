@@ -4,7 +4,10 @@
 @import "main.css";
 
 
-
+:root {
+  --button-primary: #fe6f00;
+  --button-hover: aquamarine;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
     "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI",
